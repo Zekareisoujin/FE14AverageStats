@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fire Emblem Fates: Character Average Stats</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container">
+    <div class="dropdowns">
+      <ul>
+        <li><select class="unitselect" name="unit"><option value="">Choose a unit</option></select></li>
+        <li><select class="assetselect" name="asset"><option value="">Asset</option></select></li>
+        <li><select class="flawselect" name="flaw"><option value="">Flaw</option></select></li>
+        <li><select class="promotionselect" name="promotion"><option value="">Promotion option:</option></select></li>
+        <li>
+          <div class="parallel">
+            <ul style="display: inline-block;">
+              <li><button id="addparallel">Use Parallel Seal</button></li>
+              <li>
+                <ul id="paralleluses">
+                  <ul>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel0"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass0"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel1"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass1"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel2"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass2"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel3"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass3"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel4"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass4"><option value="">Class</option></select>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel5"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass5"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel6"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass6"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel7"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass7"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel8"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass8"><option value="">Class</option></select>
+                    </li>
+                    <li class="parallelcell">
+                      <select class="parallelpair parallellevel" name="parallellevel9"><option value="">Level</option></select>
+                      <select class="parallelpair parallelclass" name="parallelclass9"><option value="">Class</option></select>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+          <div class="table-responsive stattable">
+            <h3 class="unit-name">Ash</h3>
+
+            <ul id="sidebyside">
+              <li>
+                <table class="table table-striped tier1">
+                <h4 class="unit-class unit-startingclass">Pokemon Trainer</h4>
+                  <thead>
+                    <div class="sticky-anchor"></div>
+                    <tr class="statcell fixed">
+                      <th>Level</th><th>HP</th><th>Str</th><th>Mag</th><th>Skl</th><th>Spd</th><th>Lck</th><th>Def</th><th>Res</th>
+                    </tr>
+                  </thead>
+                  <tbody class="actualstats">
+                  </tbody>
+                </table>
+              </li>
+              <li>
+                <div id="promotiontable">
+                  <table class="table table-striped tier2">
+                    <thead>
+                      <h4 class="unit-class unit-promotedclass">Pokemon Master</h4>
+                      <div class="sticky-anchor"></div>
+                      <tr class="statcell fixed">
+                        <th>Level</th><th>HP</th><th>Str</th><th>Mag</th><th>Skl</th><th>Spd</th><th>Lck</th><th>Def</th><th>Res</th>
+                      </tr>
+                    </thead>
+                    <tbody class="actualstats">
+                    </tbody>
+                  </table>
+                  </div>
+              </li>
+            </ul>
+
+
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fatesDB.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
