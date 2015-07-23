@@ -267,7 +267,7 @@ $(document).ready(function() {
 		$('select[name=tier2levelcap]').change(function() {
 			tier2levelcap = +$(this).val();
 			updateTier1Stats();
-			if ($('select[name=promotion]').val())
+			if ($('select[name=promotion]').val() || class1.classTier == 'tier2')
 				updateTier2Stats();
 		});
 
