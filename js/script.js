@@ -50,6 +50,10 @@ $(document).ready(function() {
 	for (var i=0; i<otherChars.length; i++) {
 		$('select[name=unit]').append('<option value="'+otherChars[i]+'">' + characters[otherChars[i]].name + '</option>');
 	}
+	refreshTier1LevelCap();
+	refreshTier2LevelCap();
+
+
 
 
 
@@ -101,18 +105,29 @@ $(document).ready(function() {
 
 				updatePromotions();
 
+				refreshTier1LevelCap();
+				refreshTier2LevelCap();
+
 				$('#promotiontable').hide();
 
 				if (class1.classTier == 'tier1' || class1.classTier == 'special') {
 					$('.tier1').show();
 					$('.unit-startingclass').show();
 					updateTier1Stats();
+
+					if (class1.classTier != 'special') {
+						$('select[name=tier1levelcap]').show();
+					}
+					else {
+						$('select[name=tier1levelcap]').hide();
+					}
 				}
 				else if (class1.classTier == 'tier2') {
 					$('.tier1').hide();
 					$('.unit-startingclass').hide();
 					$('.unit-promotedclass').text(class1.name);
 					updateTier2Stats();
+					$('select[name=tier1levelcap]').hide();
 				}
 			}
 
@@ -215,7 +230,7 @@ $(document).ready(function() {
 			}
 
 			updateTier1Stats();	
-			if ($('select[name=promotion]').val()) {
+			if ($('select[name=promotion]').val() || class1.classTier == 'tier2') {
 				updateTier2Stats();
 			}
 			//updatePromotions();
@@ -234,13 +249,26 @@ $(document).ready(function() {
 				removeReclass(index);
 			}
 			updateTier1Stats();	
-			if ($('select[name=promotion]').val()) {
+			if ($('select[name=promotion]').val() || class1.classTier == 'tier2') {
 				updateTier2Stats();
 			}
 			if (parlevel.val() < 21) {
 				updatePromotions();
 				$('#promotiontable').hide();
 			}
+		});
+
+		$('select[name=tier1levelcap]').change(function() {
+			tier1levelcap = +$(this).val();
+			updateTier1Stats();
+			if ($('select[name=promotion]').val())
+				updateTier2Stats();
+		});
+		$('select[name=tier2levelcap]').change(function() {
+			tier2levelcap = +$(this).val();
+			updateTier1Stats();
+			if ($('select[name=promotion]').val())
+				updateTier2Stats();
 		});
 
 	});
@@ -280,7 +308,7 @@ $(document).ready(function() {
 		if (parallelSealsUsed > 0) {
 			endClassLevel = parallelSeals[0]['level'];
 		}
-		for (var i=startingLevel; (i<=endClassLevel && i<=20); i++) {
+		for (var i=startingLevel; (i<=endClassLevel && i<=tier1levelcap); i++) {
 			var expectedStats = {};
 			for (var stat in class1Growths) {
 				expectedStats[stat] = character.bases[stat] + class1Growths[stat]*(i-startingLevel)*(0.01);
@@ -679,6 +707,23 @@ $(document).ready(function() {
 			}
 		});
 	});
+
+	function refreshTier1LevelCap() {
+		$('select[name=tier1levelcap').empty();
+		$('select[name=tier1levelcap]').append('<option value="">Promote when</option>');
+		var firstEligible = Math.max(startingLevel, 10);
+		for (var i=firstEligible; i<=20; i++) {
+			$('select[name=tier1levelcap]').append('<option value="'+i+'">' + i + '</option>');
+		}
+	}
+	function refreshTier2LevelCap() {
+		$('select[name=tier2levelcap').empty();
+		$('select[name=tier2levelcap]').append('<option value="">Tier 2 Level Cap</option>');
+		for (var i=20; i<100; i=i+5) {
+			$('select[name=tier2levelcap]').append('<option value="'+i+'">' + i + '</option>');
+		}
+		$('select[name=tier2levelcap]').append('<option value="99">99</option>');
+	}
 
 
 	$(window).on('scroll', function() {
