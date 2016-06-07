@@ -79,7 +79,7 @@ function calculateAvatarBases(a, f) {
 
 var characters = {
 	"kamui": {
-		"name": "Kamui",
+		"name": "Corrin",
 		"gender": "either",
 		"gen": 1,
 		"child": "kanna",
@@ -185,7 +185,7 @@ var characters = {
 	},	
 
 	"mozume": {
-		"name": "Mozume",
+		"name": "Mozu",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -241,7 +241,7 @@ var characters = {
 	},
 
 	"tsubaki": {
-		"name": "Tsubaki",
+		"name": "Subaki",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -256,7 +256,7 @@ var characters = {
 	},
 
 	"saizou": {
-		"name": "Saizou",
+		"name": "Saizo",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -299,7 +299,7 @@ var characters = {
 	},
 
 	"asama": {
-		"name": "Asama",
+		"name": "Azama",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -328,7 +328,7 @@ var characters = {
 	},
 
 	"tsukuyomi": {
-		"name": "Tsukuyomi",
+		"name": "Hayato",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -387,7 +387,7 @@ var characters = {
 	},
 
 	"kagerou": {
-		"name": "Kagerou",
+		"name": "Kagero",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -401,7 +401,7 @@ var characters = {
 	},
 
 	"nishiki": {
-		"name": "Nishiki",
+		"name": "Kaden",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -489,7 +489,7 @@ var characters = {
 	},
 
 	"zero": {
-		"name": "Zero",
+		"name": "Niles",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -532,7 +532,7 @@ var characters = {
 	},
 
 	"luna": {
-		"name": "Luna",
+		"name": "Selena",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -546,7 +546,7 @@ var characters = {
 	},
 
 	"belka": {
-		"name": "Belka",
+		"name": "Beruka",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -560,7 +560,7 @@ var characters = {
 	},
 
 	"lazward": {
-		"name": "Lazward",
+		"name": "Laslow",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -575,7 +575,7 @@ var characters = {
 	},
 
 	"pieri": {
-		"name": "Pieri",
+		"name": "Peri",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -603,7 +603,7 @@ var characters = {
 	},
 
 	"benoit": {
-		"name": "Benoit",
+		"name": "Benny",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -633,7 +633,7 @@ var characters = {
 	},
 
 	"flannel": {
-		"name": "Flannel",
+		"name": "Keaton",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -663,7 +663,7 @@ var characters = {
 	},
 
 	"yuugiri": {
-		"name": "Yuugiri",
+		"name": "Reina",
 		"gender": "F",
 		"gen": 1,
 		"support": false,
@@ -678,7 +678,7 @@ var characters = {
 	},
 
 	"crimson": {
-		"name": "Crimson",
+		"name": "Scarlet",
 		"gender": "F",
 		"gen": 1,
 		"support": false,
@@ -708,7 +708,7 @@ var characters = {
 	},
 
 	"asyura": {
-		"name": "Asyura",
+		"name": "Shura",
 		"gender": "M",
 		"gen": 1,
 		"support": false,
@@ -753,7 +753,7 @@ var characters = {
 	},
 
 	"fuuga": {
-		"name": "Fuuga",
+		"name": "Fuga",
 		"gender": "M",
 		"gen": 1,
 		"support": false,
@@ -807,7 +807,7 @@ var characters = {
 	},
 
 	"deere": {
-		"name": "Deere",
+		"name": "Dwyer",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "jakob",
@@ -823,7 +823,7 @@ var characters = {
 	},
 
 	"midoriko": {
-		"name": "Midoriko",
+		"name": "Midori",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "kaze",
@@ -831,7 +831,7 @@ var characters = {
 	},
 
 	"shinonome": {
-		"name": "Shinonome",
+		"name": "Shiro",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "ryoma",
@@ -839,7 +839,7 @@ var characters = {
 	},
 
 	"kisaragi": {
-		"name": "Kisaragi",
+		"name": "Kiragi",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "takumi",
@@ -847,7 +847,7 @@ var characters = {
 	},
 
 	"grey": {
-		"name": "Grey",
+		"name": "Asugi",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "saizou",
@@ -855,7 +855,7 @@ var characters = {
 	},
 
 	"kinu": {
-		"name": "Kinu",
+		"name": "Selkie",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "nishiki",
@@ -879,7 +879,7 @@ var characters = {
 	},
 
 	"matoi": {
-		"name": "Matoi",
+		"name": "Caeldori",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "tsubaki",
@@ -887,7 +887,7 @@ var characters = {
 	},
 
 	"shara": {
-		"name": "Shara",
+		"name": "Rhajat",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "tsukuyomi",
@@ -903,7 +903,7 @@ var characters = {
 	},
 
 	"foleo": {
-		"name": "Foleo",
+		"name": "Forrest",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "leo",
@@ -911,7 +911,7 @@ var characters = {
 	},
 
 	"ignis": {
-		"name": "Ignis",
+		"name": "Ignatius",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "benoit",
@@ -919,7 +919,7 @@ var characters = {
 	},
 
 	"velour": {
-		"name": "Velour",
+		"name": "Velouria",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "flannel",
@@ -927,7 +927,7 @@ var characters = {
 	},
 
 	"lutz": {
-		"name": "Lutz",
+		"name": "Percy",
 		"gender": "M",
 		"gen": 2,
 		"parent1": "arthur",
@@ -951,7 +951,7 @@ var characters = {
 	},
 
 	"eponine": {
-		"name": "Eponine",
+		"name": "Nina",
 		"gender": "F",
 		"gen": 2,
 		"parent1": "zero",
@@ -963,7 +963,7 @@ characters.kamui.mods = calculateAvatarMods(assetStat, flawStat);
 
 var classes = {
 	"dark_prince": {
-		"name": "Dark Prince(ss)",
+		"name": "Nohr Prince(ss)",
 		"promotesTo": ["dark_blood", "white_blood"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -973,7 +973,7 @@ var classes = {
 	},
 
 	"white_blood": {
-		"name": "White Blood",
+		"name": "Hoshido Noble",
 		"promotesTo": null,
 		"promotesFrom": ["dark_prince"],
 		"classTier": "tier2",
@@ -983,7 +983,7 @@ var classes = {
 	},
 
 	"dark_blood": {
-		"name": "Dark Blood",
+		"name": "Nohr Noble",
 		"promotesTo": null,
 		"promotesFrom": ["dark_prince"],
 		"classTier": "tier2",
@@ -1003,7 +1003,7 @@ var classes = {
 	},
 
 	"trueblade": {
-		"name": "Trueblade",
+		"name": "Swordmaster",
 		"promotesTo": null,
 		"promotesFrom": ["samurai"],
 		"classTier": "tier2",
@@ -1014,7 +1014,7 @@ var classes = {
 	},
 
 	"weapon_master": {
-		"name": "Weapon Master",
+		"name": "Master of Arms",
 		"promotesTo": null,
 		"promotesFrom": ["samurai", "villager"],
 		"classTier": "tier2",
@@ -1034,7 +1034,7 @@ var classes = {
 	},
 
 	"great_merchant": {
-		"name": "Great Merchant",
+		"name": "Merchant",
 		"promotesTo": null,
 		"promotesFrom": ["herb_merchant", "villager"],
 		"classTier": "tier2",
@@ -1044,7 +1044,7 @@ var classes = {
 	},	
 
 	"herb_merchant": {
-		"name": "Herb Merchant",
+		"name": "Apothecary",
 		"promotesTo": ["great_merchant", "puppeteer"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1064,7 +1064,7 @@ var classes = {
 	},
 
 	"shura": {
-		"name": "Shura",
+		"name": "Oni Chieftain",
 		"promotesTo": null,
 		"promotesFrom": ["oni"],
 		"classTier": "tier2",
@@ -1084,7 +1084,7 @@ var classes = {
 	},	
 
 	"lance_fighter": {
-		"name": "Lance Fighter",
+		"name": "Spear Fighter",
 		"promotesTo": ["holy_lancer", "basara"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1094,7 +1094,7 @@ var classes = {
 	},
 
 	"holy_lancer": {
-		"name": "Holy Lancer",
+		"name": "Spear Master",
 		"promotesTo": null,
 		"promotesFrom": ["lance_fighter"],
 		"classTier": "tier2",
@@ -1115,7 +1115,7 @@ var classes = {
 	},	
 
 	"spellcaster": {
-		"name": "Spellcaster",
+		"name": "Diviner",
 		"promotesTo": ["exorcist", "basara"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1125,7 +1125,7 @@ var classes = {
 	},	
 
 	"exorcist": {
-		"name": "Exorcist",
+		"name": "Onmyoji",
 		"promotesTo": null,
 		"promotesFrom": ["spellcaster", "priest", "priestess"],
 		"classTier": "tier2",
@@ -1135,7 +1135,7 @@ var classes = {
 	},
 
 	"priest": {
-		"name": "Priest",
+		"name": "Monk",
 		"promotesTo": ["mountain_priest", "exorcist"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1147,7 +1147,7 @@ var classes = {
 	},
 
 	"priestess": {
-		"name": "Priestess",
+		"name": "Shrine Maiden",
 		"promotesTo": ["war_priestess", "exorcist"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1159,7 +1159,7 @@ var classes = {
 	},
 
 	"mountain_priest": {
-		"name": "Mountain Priest",
+		"name": "Great Master",
 		"promotesTo": null,
 		"promotesFrom": ["priest"],
 		"classTier": "tier2",
@@ -1170,7 +1170,7 @@ var classes = {
 	},
 
 	"war_priestess": {
-		"name": "War Priestess",
+		"name": "Priestess",
 		"promotesTo": null,
 		"promotesFrom": ["priestess"],
 		"classTier": "tier2",
@@ -1181,7 +1181,7 @@ var classes = {
 	},
 
 	"pegasus_warrior": {
-		"name": "Pegasus Warrior",
+		"name": "Sky Knight",
 		"promotesTo": ["falcon_warrior", "golden_kite_warrior"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1191,7 +1191,7 @@ var classes = {
 	},
 
 	"falcon_warrior": {
-		"name": "Falcon Warrior",
+		"name": "Falcon Knight",
 		"promotesTo": null,
 		"promotesFrom": ["pegasus_warrior"],
 		"classTier": "tier2",
@@ -1201,7 +1201,7 @@ var classes = {
 	},
 
 	"golden_kite_warrior": {
-		"name": "Golden Kite Warrior",
+		"name": "Kinshi Knight",
 		"promotesTo": null,
 		"promotesFrom": ["pegasus_warrior", "bowman"],
 		"classTier": "tier2",
@@ -1211,7 +1211,7 @@ var classes = {
 	},
 	
 	"bowman": {
-		"name": "Bowman",
+		"name": "Archer",
 		"promotesTo": ["holy_bowman", "golden_kite_warrior"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1221,7 +1221,7 @@ var classes = {
 	},
 
 	"holy_bowman": {
-		"name": "Holy Bowman",
+		"name": "Sniper",
 		"promotesTo": null,
 		"promotesFrom": ["bowman"],
 		"classTier": "tier2",
@@ -1242,7 +1242,7 @@ var classes = {
 	},
 
 	"jounin": {
-		"name": "Jounin",
+		"name": "Master Ninja",
 		"promotesTo": null,
 		"promotesFrom": ["ninja"],
 		"classTier": "tier2",
@@ -1253,7 +1253,7 @@ var classes = {
 	},	
 
 	"puppeteer": {
-		"name": "Puppeteer",
+		"name": "Mechanist",
 		"promotesTo": null,
 		"promotesFrom": ["ninja", "herb_merchant"],
 		"classTier": "tier2",
@@ -1263,7 +1263,7 @@ var classes = {
 	},	
 
 	"fox_spirit": {
-		"name": "Fox Spirit",
+		"name": "Kitsune",
 		"promotesTo": ["nine_tailed_fox"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1273,7 +1273,7 @@ var classes = {
 	},
 
 	"nine_tailed_fox": {
-		"name": "Nine-Tailed Fox",
+		"name": "Nine-Tails",
 		"promotesTo": null,
 		"promotesFrom": ["fox_spirit"],
 		"classTier": "tier2",
@@ -1365,7 +1365,7 @@ var classes = {
 	},
 
 	"brave_hero": {
-		"name": "Brave Hero",
+		"name": "Hero",
 		"promotesTo": null,
 		"promotesFrom": ["mercenary", "fighter"],
 		"classTier": "tier2",
@@ -1425,7 +1425,7 @@ var classes = {
 	},
 
 	"revenant_knight": {
-		"name": "Revenant Knight",
+		"name": "Malig Knight",
 		"promotesTo": null,
 		"promotesFrom": ["wyvern_rider"],
 		"classTier": "tier2",
@@ -1466,7 +1466,7 @@ var classes = {
 	},
 
 	"rod_knight": {
-		"name": "Rod Knight",
+		"name": "Troubadour",
 		"promotesTo": ["strategist", "maid"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1497,7 +1497,7 @@ var classes = {
 	},	
 
 	"garou": {
-		"name": "Garou",
+		"name": "Wolfskin",
 		"promotesTo": ["managarmr"],
 		"promotesFrom": null,
 		"classTier": "tier1",
@@ -1507,7 +1507,7 @@ var classes = {
 	},
 
 	"managarmr": {
-		"name": "Managarmr",
+		"name": "Wolfssegner",
 		"promotesTo": null,
 		"promotesFrom": ["garou"],
 		"classTier": "tier2",
@@ -1518,7 +1518,7 @@ var classes = {
 	},
 
 	"singer": {
-		"name": "Singer",
+		"name": "Songstress",
 		"promotesTo": null,
 		"promotesFrom": null,
 		"classTier": "special",
