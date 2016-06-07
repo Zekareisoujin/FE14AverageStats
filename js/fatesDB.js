@@ -1548,6 +1548,66 @@ var classes = {
 		"maxStats": {"HP": 60, "Str": 29, "Mag": 26, "Skl": 35, "Spd": 33, "Lck": 40, "Def": 30, "Res": 29},
 		"bonus": {"Hit": 10, "Crit": 5, "Avo": 10}
 	},
+	
+	"dark_falcon": {
+		"name": "Dark Falcon",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 17, "Str": 4, "Mag": 7, "Skl": 5, "Spd": 9, "Lck": 4, "Def": 3, "Res": 9},
+		"growths": {"HP": 0, "Str": 10, "Mag": 15, "Skl": 5, "Spd": 15, "Lck": 15, "Def": 0, "Res": 20},
+		"maxStats": {"HP": 45, "Str": 27, "Mag": 32, "Skl": 28, "Spd": 33, "Lck": 32, "Def": 26, "Res": 34},
+	},
+	
+	"dread_fighter": {
+		"name": "Dread Fighter",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 19, "Str": 8, "Mag": 3, "Skl": 6, "Spd": 8, "Lck": 1, "Def": 6, "Res": 9},
+		"growths": {"HP": 15, "Str": 15, "Mag": 5, "Skl": 5, "Spd": 15, "Lck": 0, "Def": 5, "Res": 20},
+		"maxStats": {"HP": 55, "Str": 32, "Mag": 28, "Skl": 29, "Spd": 31, "Lck": 26, "Def": 29, "Res": 34},
+	},
+	
+	"great_lord": {
+		"name": "Great Lord",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 18, "Str": 8, "Mag": 1, "Skl": 8, "Spd": 9, "Lck": 5, "Def": 7, "Res": 3},
+		"growths": {"HP": 15, "Str": 15, "Mag": 0, "Skl": 10, "Spd": 10, "Lck": 15, "Def": 10, "Res": 5},
+		"maxStats": {"HP": 60, "Str": 30, "Mag": 25, "Skl": 32, "Spd": 34, "Lck": 35, "Def": 29, "Res": 31},
+	},
+	
+	"vanguard": {
+		"name": "Vanguard",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 21, "Str": 10, "Mag": 0, "Skl": 6, "Spd": 7, "Lck": 3, "Def": 9, "Res": 1},
+		"growths": {"HP": 20, "Str": 20, "Mag": 0, "Skl": 5, "Spd": 5, "Lck": 10, "Def": 15, "Res": 0},
+		"maxStats": {"HP": 65, "Str": 36, "Mag": 25, "Skl": 29, "Spd": 30, "Lck": 30, "Def": 32, "Res": 27},
+	},
+	
+	"grandmaster": {
+		"name": "Grandmaster",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 18, "Str": 7, "Mag": 6, "Skl": 8, "Spd": 7, "Lck": 2, "Def": 6, "Res": 8},
+		"growths": {"HP": 10, "Str": 15, "Mag": 15, "Skl": 15, "Spd": 5, "Lck": 0, "Def": 5, "Res": 15},
+		"maxStats": {"HP": 55, "Str": 31, "Mag": 33, "Skl": 33, "Spd": 29, "Lck": 26, "Def": 28, "Res": 33},
+	},
+	
+	"ballistician": {
+		"name": "Ballistician",
+		"promotesTo": null,
+		"promotesFrom": null,
+		"classTier": "special",
+		"bases": {"HP": 18, "Str": 10, "Mag": 0, "Skl": 7, "Spd": 2, "Lck": 4, "Def": 3, "Res": 1},
+		"growths": {"HP": 5, "Str": 25, "Mag": 0, "Skl": 15, "Spd": 0, "Lck": 10, "Def": 5, "Res": 5},
+		"maxStats": {"HP": 50, "Str": 39, "Mag": 25, "Skl": 31, "Spd": 25, "Lck": 32, "Def": 27, "Res": 26},
+	},
 };
 
 var capIndicator = '`';
