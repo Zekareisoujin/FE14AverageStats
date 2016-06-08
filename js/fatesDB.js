@@ -154,7 +154,7 @@ var characters = {
 	},
 	
 	"felicia2": {
-		"name": "Felicia (2nd joining)",
+		"name": "Felicia (Chapter 16)",
 		"gender": "F",
 		"gen": 1,
 		"support": true,
@@ -185,7 +185,7 @@ var characters = {
 	},
 	
 	"jakob2": {
-		"name": "Jakob (2nd joining)",
+		"name": "Jakob (Chapter 16)",
 		"gender": "M",
 		"gen": 1,
 		"support": true,
@@ -307,7 +307,7 @@ var characters = {
 		"gen": 1,
 		"support": true,
 		"startingClass": "samurai",
-		"startingLevel": 5,
+		"startingLevel": 4,
 		"bases": {"HP": 20, "Str": 9, "Mag": 0, "Skl": 11, "Spd": 11, "Lck": 5, "Def": 6, "Res": 9},
 		"growths": {"HP": 25, "Str": 55, "Mag": 10, "Skl": 45, "Spd": 55, "Lck": 25, "Def": 20, "Res": 30},
 		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 1, "Spd": 2, "Lck": -1, "Def": -3, "Res": 1},
@@ -948,6 +948,21 @@ var characters = {
 		"startingClass": "golden_kite_warrior",
 		"startingLevel": 1,
 		"bases": {"HP": 28, "Str": 17, "Mag": 5, "Skl": 14, "Spd": 20, "Lck": 14, "Def": 10, "Res": 13},
+		"growths": {"HP": 40, "Str": 45, "Mag": 5, "Skl": 20, "Spd": 45, "Lck": 10, "Def": 20, "Res": 10},
+		"mods": {"HP": 0, "Str": 2, "Mag": 0, "Skl": 0, "Spd": 2, "Lck": -1, "Def": -2, "Res": -1},
+		"baseClass1": "pegasus_warrior",
+		"baseClass2": "spellcaster",
+		"baseClass3": "ninja"
+	},
+	
+	"yuugiri_rev": {
+		"name": "Reina",
+		"gender": "F",
+		"gen": 1,
+		"support": false,
+		"startingClass": "golden_kite_warrior",
+		"startingLevel": 1,
+		"bases": {"HP": 28, "Str": 18, "Mag": 4, "Skl": 16, "Spd": 21, "Lck": 15, "Def": 10, "Res": 13},
 		"growths": {"HP": 40, "Str": 45, "Mag": 5, "Skl": 20, "Spd": 45, "Lck": 10, "Def": 20, "Res": 10},
 		"mods": {"HP": 0, "Str": 2, "Mag": 0, "Skl": 0, "Spd": 2, "Lck": -1, "Def": -2, "Res": -1},
 		"baseClass1": "pegasus_warrior",

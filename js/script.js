@@ -1,7 +1,7 @@
 var sharedChars = ['kamui', 'azura', 'gunter', 'gunter_cq', 'felicia', 'felicia2', 'jakob', 'jakob2', 'kaze', 'kaze_cq', 'silas', 'asyura', 'asyura_cq', 'izana', 'mozume'];
 var hoshidoChars = ['rinkah', 'sakura', 'hana', 'tsubaki', 'saizou', 'orochi', 'hinoka', 'asama', 'setsuna', 'tsukuyomi', 'oboro', 'hinata', 'takumi', 'kagerou', 'yuugiri', 'nishiki', 'ryoma', 'crimson', 'yukimura'];
 var nohrChars = ['elise', 'arthur', 'effie', 'odin', 'zero', 'nyx', 'camilla', 'luna', 'belka', 'lazward', 'pieri', 'benoit', 'charlotte', 'leo', 'flannel', 'xander', 'flora'];
-var revChars = ['sakura_rev', 'hana_rev', 'saizou_rev', 'orochi_rev', 'hinoka_rev', 'asama_rev', 'setsuna_rev', 'tsukuyomi_rev', 'elise_rev', 'effie_rev', 'arthur_rev', 'odin_rev', 'zero_rev', 'lazward_rev', 'pieri_rev', 'crimson_rev', 'fuuga'];
+var revChars = ['sakura_rev', 'hana_rev', 'saizou_rev', 'orochi_rev', 'hinoka_rev', 'asama_rev', 'setsuna_rev', 'tsukuyomi_rev', 'yuugiri_rev', 'elise_rev', 'effie_rev', 'arthur_rev', 'odin_rev', 'zero_rev', 'lazward_rev', 'pieri_rev', 'crimson_rev', 'fuuga'];
 var otherChars = ['anna'];
 
 var tier1Classes = ['samurai', 'herb_merchant', 'ninja', 'oni', 'lance_fighter', 'spellcaster', 'priest', 'priestess', 'pegasus_warrior', 'bowman', 'dark_prince', 'cavalier', 'knight', 'fighter', 'mercenary', 'outlaw', 'wyvern_rider', 'dark_mage', 'rod_knight'];
