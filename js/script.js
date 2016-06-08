@@ -309,8 +309,10 @@ $(document).ready(function() {
 		//debugger;
 		if (class1.classTier == 'tier2') return;
 
-		if (character.special && class1.classTier == "special") tier1levelcap = 40;
-		if (parallelSealsUsed > 0 && classes[parallelSeals[parallelSealsUsed-1]['class']].classTier == "special") tier1levelcap = 40;
+		if (class1.classTier == "special") tier1levelcap = 40;
+		if (parallelSealsUsed > 0 && classes[parallelSeals[parallelSealsUsed-1]['class']].classTier == "special") {
+			tier1levelcap = 40;
+		}
 
 		class1Growths = {};
 		class1Levels = {};

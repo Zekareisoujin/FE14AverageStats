@@ -105,7 +105,7 @@ var characters = {
 		"mods": {"HP": 0, "Str": 0, "Mag": 0, "Skl": 1, "Spd": 3, "Lck": 0, "Def": -3, "Res": 0},
 		"baseClass1": "singer",
 		"baseClass2": "pegasus_warrior",
-		"special": true
+		"special": false
 	},
 
 	"gunter": {
