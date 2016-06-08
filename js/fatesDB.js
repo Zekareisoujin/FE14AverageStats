@@ -626,7 +626,7 @@ var characters = {
 		"gen": 1,
 		"support": true,
 		"startingClass": "rod_knight",
-		"startingLevel": 5,
+		"startingLevel": 7,
 		"bases": {"HP": 20, "Str": 2, "Mag": 13, "Skl": 7, "Spd": 11, "Lck": 16, "Def": 4, "Res": 13},
 		"growths": {"HP": 30, "Str": 5, "Mag": 65, "Skl": 25, "Spd": 55, "Lck": 70, "Def": 15, "Res": 40},
 		"mods": {"HP": 0, "Str": -1, "Mag": 3, "Skl": -2, "Spd": 1, "Lck": 1, "Def": -3, "Res": 1},
