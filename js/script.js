@@ -1,7 +1,8 @@
-var sharedChars = ['kamui', 'azura', 'gunter', 'felicia', 'jakob', 'kaze', 'silas', 'asyura', 'izana', 'mozume'];
+var sharedChars = ['kamui', 'azura', 'gunter', 'gunter_cq', 'felicia', 'felicia2', 'jakob', 'jakob2', 'kaze', 'kaze_cq', 'silas', 'asyura', 'asyura_cq', 'izana', 'mozume'];
 var hoshidoChars = ['rinkah', 'sakura', 'hana', 'tsubaki', 'saizou', 'orochi', 'hinoka', 'asama', 'setsuna', 'tsukuyomi', 'oboro', 'hinata', 'takumi', 'kagerou', 'yuugiri', 'nishiki', 'ryoma', 'crimson', 'yukimura'];
 var nohrChars = ['elise', 'arthur', 'effie', 'odin', 'zero', 'nyx', 'camilla', 'luna', 'belka', 'lazward', 'pieri', 'benoit', 'charlotte', 'leo', 'flannel', 'xander', 'flora'];
-var otherChars = ['fuuga', 'anna'];
+var revChars = ['sakura_rev', 'hana_rev', 'saizou_rev', 'orochi_rev', 'hinoka_rev', 'asama_rev', 'setsuna_rev', 'tsukuyomi_rev', 'elise_rev', 'effie_rev', 'arthur_rev', 'odin_rev', 'zero_rev', 'lazward_rev', 'pieri_rev', 'crimson_rev', 'fuuga'];
+var otherChars = ['anna'];
 
 var tier1Classes = ['samurai', 'herb_merchant', 'ninja', 'oni', 'lance_fighter', 'spellcaster', 'priest', 'priestess', 'pegasus_warrior', 'bowman', 'dark_prince', 'cavalier', 'knight', 'fighter', 'mercenary', 'outlaw', 'wyvern_rider', 'dark_mage', 'rod_knight'];
 var tier2Classes = ['white_blood', 'trueblade', 'weapon_master', 'great_merchant', 'puppeteer', 'jounin', 'shura', 'blacksmith', 'holy_lancer', 'basara', 'exorcist', 'mountain_priest', 'war_priestess', 'falcon_warrior', 'golden_kite_warrior', 'holy_bowman', 'dark_blood', 'paladin', 'great_knight', 'general', 'berserker', 'brave_hero', 'bow_knight', 'adventurer', 'wyvern_lord', 'revenant_knight', 'sorcerer', 'dark_knight', 'strategist', 'maid'];
@@ -38,13 +39,17 @@ $(document).ready(function() {
 	for (var i=0; i<sharedChars.length; i++) {
 		$('select[name=unit]').append('<option value="'+sharedChars[i]+'">' + characters[sharedChars[i]].name + '</option>');
 	}
-	$('select[name=unit]').append('<option value="">---Hoshido---</option>');
+	$('select[name=unit]').append('<option value="">---Birthright---</option>');
 	for (var i=0; i<hoshidoChars.length; i++) {
 		$('select[name=unit]').append('<option value="'+hoshidoChars[i]+'">' + characters[hoshidoChars[i]].name + '</option>');
 	}
-	$('select[name=unit]').append('<option value="">----Nohr----</option>');
+	$('select[name=unit]').append('<option value="">----Conquest----</option>');
 	for (var i=0; i<nohrChars.length; i++) {
 		$('select[name=unit]').append('<option value="'+nohrChars[i]+'">' + characters[nohrChars[i]].name + '</option>');
+	}
+	$('select[name=unit]').append('<option value="">----Revelation----</option>');
+	for (var i=0; i<revChars.length; i++) {
+		$('select[name=unit]').append('<option value="'+revChars[i]+'">' + characters[revChars[i]].name + '</option>');
 	}
 	$('select[name=unit]').append('<option value="">----Other----</option>');
 	for (var i=0; i<otherChars.length; i++) {

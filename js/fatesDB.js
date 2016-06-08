@@ -122,6 +122,21 @@ var characters = {
 		"baseClass2": "mercenary",
 		"baseClass3": "wyvern_rider"
 	},
+	
+	"gunter_cq": {
+		"name": "Gunter (Conquest)",
+		"gender": "M",
+		"gen": 1,
+		"support": false,
+		"startingClass": "great_knight",
+		"startingLevel": 10,
+		"bases": {"HP": 34, "Str": 17, "Mag": 0, "Skl": 24, "Spd": 10, "Lck": 13, "Def": 20, "Res": 6},
+		"growths": {"HP": 15, "Str": 5, "Mag": 0, "Skl": 5, "Spd": 0, "Lck": 15, "Def": 5, "Res": 5},
+		"mods": {"HP": 0, "Str": 2, "Mag": 0, "Skl": 1, "Spd": -2, "Lck": 0, "Def": 2, "Res": -2},
+		"baseClass1": "cavalier",
+		"baseClass2": "mercenary",
+		"baseClass3": "wyvern_rider"
+	},
 
 	"felicia": {
 		"name": "Felicia",
@@ -131,6 +146,21 @@ var characters = {
 		"startingClass": "maid",
 		"startingLevel": 1,
 		"bases": {"HP": 19, "Str": 5, "Mag": 9, "Skl": 10, "Spd": 10, "Lck": 12, "Def": 5, "Res": 9},
+		"growths": {"HP": 40, "Str": 10, "Mag": 35, "Skl": 30, "Spd": 40, "Lck": 55, "Def": 15, "Res": 35},
+		"mods": {"HP": 0, "Str": -2, "Mag": 2, "Skl": 0, "Spd": 1, "Lck": 0, "Def": -1, "Res": 1},
+		"baseClass1": "rod_knight",
+		"baseClass2": "mercenary",
+		"special": true
+	},
+	
+	"felicia2": {
+		"name": "Felicia (2nd joining)",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "maid",
+		"startingLevel": 13,
+		"bases": {"HP": 24, "Str": 7, "Mag": 14, "Skl": 15, "Spd": 17, "Lck": 20, "Def": 7, "Res": 14},
 		"growths": {"HP": 40, "Str": 10, "Mag": 35, "Skl": 30, "Spd": 40, "Lck": 55, "Def": 15, "Res": 35},
 		"mods": {"HP": 0, "Str": -2, "Mag": 2, "Skl": 0, "Spd": 1, "Lck": 0, "Def": -1, "Res": 1},
 		"baseClass1": "rod_knight",
@@ -152,7 +182,23 @@ var characters = {
 		"baseClass1": "rod_knight",
 		"baseClass2": "cavalier",
 		"special": true
-	},	
+	},
+	
+	"jakob2": {
+		"name": "Jakob (2nd joining)",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "deere",
+		"startingClass": "maid",
+		"startingLevel": 13,
+		"bases": {"HP": 27, "Str": 13, "Mag": 9, "Skl": 19, "Spd": 15, "Lck": 17, "Def": 11, "Res": 10},
+		"growths": {"HP": 50, "Str": 35, "Mag": 15, "Skl": 40, "Spd": 35, "Lck": 45, "Def": 25, "Res": 25},
+		"mods": {"HP": 0, "Str": 2, "Mag": -2, "Skl": 2, "Spd": 0, "Lck": -1, "Def": 0, "Res": -1},
+		"baseClass1": "rod_knight",
+		"baseClass2": "cavalier",
+		"special": true
+	},
 
 	"kaze": {
 		"name": "Kaze",
@@ -163,6 +209,21 @@ var characters = {
 		"startingClass": "ninja",
 		"startingLevel": 3,
 		"bases": {"HP": 19, "Str": 7, "Mag": 0, "Skl": 9, "Spd": 12, "Lck": 4, "Def": 5, "Res": 10},
+		"growths": {"HP": 55, "Str": 40, "Mag": 0, "Skl": 45, "Spd": 65, "Lck": 20, "Def": 20, "Res": 35},
+		"mods": {"HP": 0, "Str": -2, "Mag": 0, "Skl": 2, "Spd": 3, "Lck": -2, "Def": -1, "Res": 0},
+		"baseClass1": "ninja",
+		"baseClass2": "samurai"
+	},
+	
+	"kaze_cq": {
+		"name": "Kaze (Conquest)",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "midoriko",
+		"startingClass": "ninja",
+		"startingLevel": 9,
+		"bases": {"HP": 22, "Str": 9, "Mag": 0, "Skl": 12, "Spd": 16, "Lck": 6, "Def": 7, "Res": 13},
 		"growths": {"HP": 55, "Str": 40, "Mag": 0, "Skl": 45, "Spd": 65, "Lck": 20, "Def": 20, "Res": 35},
 		"mods": {"HP": 0, "Str": -2, "Mag": 0, "Skl": 2, "Spd": 3, "Lck": -2, "Def": -1, "Res": 0},
 		"baseClass1": "ninja",
@@ -225,6 +286,20 @@ var characters = {
 		"baseClass1": "priestess",
 		"baseClass2": "pegasus_warrior"
 	},
+	
+	"sakura_rev": {
+		"name": "Sakura",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "priestess",
+		"startingLevel": 4,
+		"bases": {"HP": 19, "Str": 4, "Mag": 8, "Skl": 6, "Spd": 10, "Lck": 11, "Def": 7, "Res": 8},
+		"growths": {"HP": 45, "Str": 30, "Mag": 50, "Skl": 40, "Spd": 40, "Lck": 55, "Def": 30, "Res": 20},
+		"mods": {"HP": 0, "Str": 0, "Mag": 2, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -1, "Res": 0},
+		"baseClass1": "priestess",
+		"baseClass2": "pegasus_warrior"
+	},
 
 	"hana": {
 		"name": "Hana",
@@ -234,6 +309,20 @@ var characters = {
 		"startingClass": "samurai",
 		"startingLevel": 5,
 		"bases": {"HP": 20, "Str": 9, "Mag": 0, "Skl": 11, "Spd": 11, "Lck": 5, "Def": 6, "Res": 9},
+		"growths": {"HP": 25, "Str": 55, "Mag": 10, "Skl": 45, "Spd": 55, "Lck": 25, "Def": 20, "Res": 30},
+		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 1, "Spd": 2, "Lck": -1, "Def": -3, "Res": 1},
+		"baseClass1": "samurai",
+		"baseClass2": "priestess"
+	},
+	
+	"hana_rev": {
+		"name": "Hana",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "samurai",
+		"startingLevel": 4,
+		"bases": {"HP": 20, "Str": 7, "Mag": 0, "Skl": 9, "Spd": 11, "Lck": 5, "Def": 6, "Res": 9},
 		"growths": {"HP": 25, "Str": 55, "Mag": 10, "Skl": 45, "Spd": 55, "Lck": 25, "Def": 20, "Res": 30},
 		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 1, "Spd": 2, "Lck": -1, "Def": -3, "Res": 1},
 		"baseClass1": "samurai",
@@ -269,6 +358,21 @@ var characters = {
 		"baseClass1": "ninja",
 		"baseClass2": "samurai"
 	},
+	
+	"saizou_rev": {
+		"name": "Saizo",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "grey",
+		"startingClass": "ninja",
+		"startingLevel": 9,
+		"bases": {"HP": 23, "Str": 11, "Mag": 3, "Skl": 15, "Spd": 12, "Lck": 9, "Def": 9, "Res": 8},
+		"growths": {"HP": 40, "Str": 50, "Mag": 45, "Skl": 60, "Spd": 30, "Lck": 55, "Def": 45, "Res": 10},
+		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 3, "Spd": -2, "Lck": 0, "Def": 1, "Res": -2},
+		"baseClass1": "ninja",
+		"baseClass2": "samurai"
+	},
 
 	"orochi": {
 		"name": "Orochi",
@@ -283,6 +387,20 @@ var characters = {
 		"baseClass1": "spellcaster",
 		"baseClass2": "herb_merchant"
 	},
+	
+	"orochi_rev": {
+		"name": "Orochi",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "spellcaster",
+		"startingLevel": 7,
+		"bases": {"HP": 20, "Str": 1, "Mag": 10, "Skl": 12, "Spd": 7, "Lck": 6, "Def": 5, "Res": 10},
+		"growths": {"HP": 35, "Str": 5, "Mag": 65, "Skl": 50, "Spd": 15, "Lck": 35, "Def": 25, "Res": 45},
+		"mods": {"HP": 0, "Str": 0, "Mag": 3, "Skl": 2, "Spd": -2, "Lck": -1, "Def": -2, "Res": 1},
+		"baseClass1": "spellcaster",
+		"baseClass2": "herb_merchant"
+	},
 
 	"hinoka": {
 		"name": "Hinoka",
@@ -292,6 +410,20 @@ var characters = {
 		"startingClass": "pegasus_warrior",
 		"startingLevel": 8,
 		"bases": {"HP": 23, "Str": 9, "Mag": 4, "Skl": 13, "Spd": 16, "Lck": 12, "Def": 9, "Res": 15},
+		"growths": {"HP": 45, "Str": 45, "Mag": 15, "Skl": 40, "Spd": 45, "Lck": 40, "Def": 35, "Res": 40},
+		"mods": {"HP": 0, "Str": 1, "Mag": -1, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -1, "Res": 2},
+		"baseClass1": "pegasus_warrior",
+		"baseClass2": "lance_fighter"
+	},
+	
+	"hinoka_rev": {
+		"name": "Hinoka",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "pegasus_warrior",
+		"startingLevel": 17,
+		"bases": {"HP": 24, "Str": 14, "Mag": 5, "Skl": 18, "Spd": 23, "Lck": 16, "Def": 12, "Res": 23},
 		"growths": {"HP": 45, "Str": 45, "Mag": 15, "Skl": 40, "Spd": 45, "Lck": 40, "Def": 35, "Res": 40},
 		"mods": {"HP": 0, "Str": 1, "Mag": -1, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -1, "Res": 2},
 		"baseClass1": "pegasus_warrior",
@@ -312,6 +444,21 @@ var characters = {
 		"baseClass1": "priest",
 		"baseClass2": "herb_merchant"
 	},
+	
+	"asama_rev": {
+		"name": "Azama",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "mitama",
+		"startingClass": "priest",
+		"startingLevel": 13,
+		"bases": {"HP": 28, "Str": 10, "Mag": 8, "Skl": 11, "Spd": 13, "Lck": 16, "Def": 14, "Res": 10},
+		"growths": {"HP": 55, "Str": 50, "Mag": 20, "Skl": 40, "Spd": 45, "Lck": 40, "Def": 40, "Res": 20},
+		"mods": {"HP": 0, "Str": 2, "Mag": -3, "Skl": 0, "Spd": 1, "Lck": 0, "Def": 1, "Res": 0},
+		"baseClass1": "priest",
+		"baseClass2": "herb_merchant"
+	},
 
 	"setsuna": {
 		"name": "Setsuna",
@@ -321,6 +468,20 @@ var characters = {
 		"startingClass": "bowman",
 		"startingLevel": 3,
 		"bases": {"HP": 19, "Str": 8, "Mag": 0, "Skl": 9, "Spd": 10, "Lck": 6, "Def": 5, "Res": 3},
+		"growths": {"HP": 30, "Str": 20, "Mag": 0, "Skl": 30, "Spd": 60, "Lck": 30, "Def": 15, "Res": 40},
+		"mods": {"HP": 0, "Str": 0, "Mag": 0, "Skl": 1, "Spd": 3, "Lck": -1, "Def": -1, "Res": -1},
+		"baseClass1": "bowman",
+		"baseClass2": "ninja"
+	},
+	
+	"setsuna_rev": {
+		"name": "Setsuna",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "bowman",
+		"startingLevel": 11,
+		"bases": {"HP": 25, "Str": 12, "Mag": 0, "Skl": 15, "Spd": 17, "Lck": 11, "Def": 8, "Res": 10},
 		"growths": {"HP": 30, "Str": 20, "Mag": 0, "Skl": 30, "Spd": 60, "Lck": 30, "Def": 15, "Res": 40},
 		"mods": {"HP": 0, "Str": 0, "Mag": 0, "Skl": 1, "Spd": 3, "Lck": -1, "Def": -1, "Res": -1},
 		"baseClass1": "bowman",
@@ -336,6 +497,21 @@ var characters = {
 		"startingClass": "spellcaster",
 		"startingLevel": 1,
 		"bases": {"HP": 16, "Str": 1, "Mag": 4, "Skl": 5, "Spd": 7, "Lck": 8, "Def": 4, "Res": 5},
+		"growths": {"HP": 50, "Str": 30, "Mag": 40, "Skl": 30, "Spd": 45, "Lck": 60, "Def": 40, "Res": 20},
+		"mods": {"HP": 0, "Str": 0, "Mag": 1, "Skl": -1, "Spd": 2, "Lck": 1, "Def": -1, "Res": -1},
+		"baseClass1": "spellcaster",
+		"baseClass2": "oni"
+	},
+	
+	"tsukuyomi_rev": {
+		"name": "Hayato",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "shara",
+		"startingClass": "spellcaster",
+		"startingLevel": 9,
+		"bases": {"HP": 22, "Str": 2, "Mag": 9, "Skl": 9, "Spd": 13, "Lck": 11, "Def": 5, "Res": 7},
 		"growths": {"HP": 50, "Str": 30, "Mag": 40, "Skl": 30, "Spd": 45, "Lck": 60, "Def": 40, "Res": 20},
 		"mods": {"HP": 0, "Str": 0, "Mag": 1, "Skl": -1, "Spd": 2, "Lck": 1, "Def": -1, "Res": -1},
 		"baseClass1": "spellcaster",
@@ -443,6 +619,20 @@ var characters = {
 		"baseClass1": "rod_knight",
 		"baseClass2": "wyvern_rider"
 	},
+	
+	"elise_rev": {
+		"name": "Elise",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "rod_knight",
+		"startingLevel": 5,
+		"bases": {"HP": 20, "Str": 2, "Mag": 13, "Skl": 7, "Spd": 11, "Lck": 16, "Def": 4, "Res": 13},
+		"growths": {"HP": 30, "Str": 5, "Mag": 65, "Skl": 25, "Spd": 55, "Lck": 70, "Def": 15, "Res": 40},
+		"mods": {"HP": 0, "Str": -1, "Mag": 3, "Skl": -2, "Spd": 1, "Lck": 1, "Def": -3, "Res": 1},
+		"baseClass1": "rod_knight",
+		"baseClass2": "wyvern_rider"
+	},
 
 	"effie": {
 		"name": "Effie",
@@ -452,6 +642,20 @@ var characters = {
 		"startingClass": "knight",
 		"startingLevel": 6,
 		"bases": {"HP": 23, "Str": 13, "Mag": 0, "Skl": 8, "Spd": 5, "Lck": 10, "Def": 12, "Res": 4},
+		"growths": {"HP": 35, "Str": 60, "Mag": 0, "Skl": 35, "Spd": 50, "Lck": 50, "Def": 35, "Res": 30},
+		"mods": {"HP": 0, "Str": 3, "Mag": 0, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -1, "Res": -1},
+		"baseClass1": "knight",
+		"baseClass2": "rod_knight"
+	},	
+	
+	"effie_rev": {
+		"name": "Effie",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "knight",
+		"startingLevel": 8,
+		"bases": {"HP": 24, "Str": 14, "Mag": 0, "Skl": 9, "Spd": 5, "Lck": 11, "Def": 13, "Res": 4},
 		"growths": {"HP": 35, "Str": 60, "Mag": 0, "Skl": 35, "Spd": 50, "Lck": 50, "Def": 35, "Res": 30},
 		"mods": {"HP": 0, "Str": 3, "Mag": 0, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -1, "Res": -1},
 		"baseClass1": "knight",
@@ -472,6 +676,21 @@ var characters = {
 		"baseClass1": "fighter",
 		"baseClass2": "cavalier"
 	},
+	
+	"arthur_rev": {
+		"name": "Arthur",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "lutz",
+		"startingClass": "fighter",
+		"startingLevel": 9,
+		"bases": {"HP": 26, "Str": 13, "Mag": 0, "Skl": 10, "Spd": 9, "Lck": 1, "Def": 9, "Res": 4},
+		"growths": {"HP": 50, "Str": 45, "Mag": 0, "Skl": 55, "Spd": 35, "Lck": 5, "Def": 45, "Res": 20},
+		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 3, "Spd": 0, "Lck": -3, "Def": 1, "Res": -1},
+		"baseClass1": "fighter",
+		"baseClass2": "cavalier"
+	},
 
 	"odin": {
 		"name": "Odin",
@@ -487,6 +706,21 @@ var characters = {
 		"baseClass1": "dark_mage",
 		"baseClass2": "samurai"
 	},
+	
+	"odin_rev": {
+		"name": "Odin",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "ophelia",
+		"startingClass": "dark_mage",
+		"startingLevel": 12,
+		"bases": {"HP": 24, "Str": 8, "Mag": 12, "Skl": 12, "Spd": 10, "Lck": 12, "Def": 7, "Res": 10},
+		"growths": {"HP": 55, "Str": 35, "Mag": 30, "Skl": 55, "Spd": 35, "Lck": 60, "Def": 40, "Res": 20},
+		"mods": {"HP": 0, "Str": 0, "Mag": 1, "Skl": 1, "Spd": -1, "Lck": 1, "Def": 0, "Res": -1},
+		"baseClass1": "dark_mage",
+		"baseClass2": "samurai"
+	},
 
 	"zero": {
 		"name": "Niles",
@@ -497,6 +731,21 @@ var characters = {
 		"startingClass": "outlaw",
 		"startingLevel": 8,
 		"bases": {"HP": 22, "Str": 9, "Mag": 5, "Skl": 9, "Spd": 15, "Lck": 6, "Def": 7, "Res": 12},
+		"growths": {"HP": 40, "Str": 35, "Mag": 20, "Skl": 40, "Spd": 50, "Lck": 30, "Def": 30, "Res": 40},
+		"mods": {"HP": 0, "Str": -2, "Mag": 0, "Skl": -1, "Spd": 3, "Lck": 0, "Def": 0, "Res": 1},
+		"baseClass1": "outlaw",
+		"baseClass2": "dark_mage"
+	},
+	
+	"zero_rev": {
+		"name": "Niles",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "eponine",
+		"startingClass": "outlaw",
+		"startingLevel": 14,
+		"bases": {"HP": 24, "Str": 11, "Mag": 6, "Skl": 11, "Spd": 17, "Lck": 7, "Def": 10, "Res": 16},
 		"growths": {"HP": 40, "Str": 35, "Mag": 20, "Skl": 40, "Spd": 50, "Lck": 30, "Def": 30, "Res": 40},
 		"mods": {"HP": 0, "Str": -2, "Mag": 0, "Skl": -1, "Spd": 3, "Lck": 0, "Def": 0, "Res": 1},
 		"baseClass1": "outlaw",
@@ -573,6 +822,21 @@ var characters = {
 		"baseClass1": "mercenary",
 		"baseClass2": "ninja"
 	},
+	
+	"lazward_rev": {
+		"name": "Laslow",
+		"gender": "M",
+		"gen": 1,
+		"support": true,
+		"child": "soleil",
+		"startingClass": "mercenary",
+		"startingLevel": 16,
+		"bases": {"HP": 30, "Str": 17, "Mag": 0, "Skl": 19, "Spd": 16, "Lck": 16, "Def": 12, "Res": 8},
+		"growths": {"HP": 50, "Str": 45, "Mag": 0, "Skl": 45, "Spd": 30, "Lck": 55, "Def": 35, "Res": 25},
+		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": 2, "Spd": -1, "Lck": 1, "Def": -1, "Res": -1},
+		"baseClass1": "mercenary",
+		"baseClass2": "ninja"
+	},
 
 	"pieri": {
 		"name": "Peri",
@@ -582,6 +846,20 @@ var characters = {
 		"startingClass": "cavalier",
 		"startingLevel": 10,
 		"bases": {"HP": 25, "Str": 13, "Mag": 0, "Skl": 9, "Spd": 13, "Lck": 9, "Def": 10, "Res": 10},
+		"growths": {"HP": 30, "Str": 50, "Mag": 5, "Skl": 30, "Spd": 50, "Lck": 35, "Def": 25, "Res": 45},
+		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -2, "Res": 2},
+		"baseClass1": "cavalier",
+		"baseClass2": "dark_mage"
+	},
+	
+	"pieri_rev": {
+		"name": "Peri",
+		"gender": "F",
+		"gen": 1,
+		"support": true,
+		"startingClass": "cavalier",
+		"startingLevel": 16,
+		"bases": {"HP": 27, "Str": 16, "Mag": 0, "Skl": 10, "Spd": 15, "Lck": 12, "Def": 12, "Res": 11},
 		"growths": {"HP": 30, "Str": 50, "Mag": 5, "Skl": 30, "Spd": 50, "Lck": 35, "Def": 25, "Res": 45},
 		"mods": {"HP": 0, "Str": 1, "Mag": 0, "Skl": -1, "Spd": 1, "Lck": 0, "Def": -2, "Res": 2},
 		"baseClass1": "cavalier",
@@ -691,6 +969,21 @@ var characters = {
 		"baseClass2": "outlaw",
 		"baseClass3": "knight"
 	},
+	
+	"crimson_rev": {
+		"name": "Scarlet",
+		"gender": "F",
+		"gen": 1,
+		"support": false,
+		"startingClass": "wyvern_lord",
+		"startingLevel": 3,
+		"bases": {"HP": 32, "Str": 22, "Mag": 4, "Skl": 18, "Spd": 19, "Lck": 14, "Def": 23, "Res": 7},
+		"growths": {"HP": 30, "Str": 45, "Mag": 20, "Skl": 40, "Spd": 50, "Lck": 40, "Def": 25, "Res": 20},
+		"mods": {"HP": 0, "Str": 2, "Mag": 0, "Skl": 0, "Spd": 1, "Lck": -1, "Def": 0, "Res": -2},
+		"baseClass1": "wyvern_rider",
+		"baseClass2": "outlaw",
+		"baseClass3": "knight"
+	},
 
 	"flora": {
 		"name": "Flora",
@@ -709,6 +1002,21 @@ var characters = {
 
 	"asyura": {
 		"name": "Shura",
+		"gender": "M",
+		"gen": 1,
+		"support": false,
+		"startingClass": "adventurer",
+		"startingLevel": 10,
+		"bases": {"HP": 34, "Str": 20, "Mag": 11, "Skl": 23, "Spd": 27, "Lck": 15, "Def": 14, "Res": 24},
+		"growths": {"HP": 30, "Str": 25, "Mag": 10, "Skl": 20, "Spd": 35, "Lck": 30, "Def": 15, "Res": 35},
+		"mods": {"HP": 0, "Str": -1, "Mag": 0, "Skl": -1, "Spd": 3, "Lck": -1, "Def": -2, "Res": 2},
+		"baseClass1": "outlaw",
+		"baseClass2": "ninja",
+		"baseClass3": "fighter"
+	},
+	
+	"asyura_cq": {
+		"name": "Shura (Conquest)",
 		"gender": "M",
 		"gen": 1,
 		"support": false,
