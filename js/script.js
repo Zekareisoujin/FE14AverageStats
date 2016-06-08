@@ -152,10 +152,17 @@ $(document).ready(function() {
 			else
 				promotions = class1.promotesTo;
 
-			$('select[name=promotion]').append('<option value="">Promotion option:</option>');
-			for (var i=0; i<promotions.length; i++) {
-				$('select[name=promotion').append('<option value="'+promotions[i]+'">' + classes[promotions[i]].name + '</option>');
-				$('select[name=promotion').css({'display': 'inline-block'});
+			if (promotions) {
+				$('select[name=promotion]').append('<option value="">Promotion option:</option>');
+				for (var i=0; i<promotions.length; i++) {
+					$('select[name=promotion').append('<option value="'+promotions[i]+'">' + classes[promotions[i]].name + '</option>');
+					$('select[name=promotion').css({'display': 'inline-block'});
+				}
+			}
+			else {
+				$('select[name=promotion]').empty();
+				$('select[name=promotion]').hide();
+				$('select[name=tier1levelcap]').hide();
 			}
 		}
 		else {
@@ -214,6 +221,12 @@ $(document).ready(function() {
 							parclass.append('<option value="'+tier2Classes[i]+'">' + classes[tier2Classes[i]].name + '</option>');
 						}
 					}
+					parclass.append('<option value="">-----Special-----</option>');
+					parclass.append('<option value="">(None)</option>');
+					for (var i=0; i<specialClasses.length; i++) {
+						parclass.append('<option value="'+specialClasses[i]+'">' + classes[specialClasses[i]].name + '</option>');
+					}
+					
 					parclass.show();
 				}
 				else {
@@ -297,6 +310,7 @@ $(document).ready(function() {
 		if (class1.classTier == 'tier2') return;
 
 		if (character.special && class1.classTier == "special") tier1levelcap = 40;
+		if (parallelSealsUsed > 0 && classes[parallelSeals[parallelSealsUsed-1]['class']].classTier == "special") tier1levelcap = 40;
 
 		class1Growths = {};
 		class1Levels = {};
@@ -362,7 +376,7 @@ $(document).ready(function() {
 					}
 
 					endClassLevel = (j < parallelSeals.length-1 && parallelSeals[j+1]) ? parallelSeals[j+1]['level'] : tier1levelcap;
-					for (var i=startClassLevel; (i<=endClassLevel && i<=20); i++) {
+					for (var i=startClassLevel; (i<=endClassLevel && i<=tier1levelcap); i++) {
 						var expectedStats = {};
 						for (var stat in newclassgrowths) {
 							expectedStats[stat] = startbases[stat] + newclassgrowths[stat]*(i-startClassLevel)*(0.01);
